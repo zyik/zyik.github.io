@@ -1,0 +1,108 @@
+<html lang='en'>
+    <head>
+        <title>CAD System - Malaria Detection </title>
+        <link rel="shortcut icon" href="static/images/favicon.png" type="text/css" href="">
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- <link rel='stylesheet' href='../static/style.css'>-->
+
+        <link rel='stylesheet' href='../static/dependencies/bulma.min.css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href='https://fonts.googleapis.com/css?family=Bevan' rel='stylesheet'>
+
+    </head>
+
+    <body class="background">
+        <div class=" container-fluid  ">
+          <a href="/">
+           <span class="glyphicon glyphicon-arrow-left arrow" ></span>
+          </a>
+          <p>Go Back</p>
+          <div class="row">
+            <div class=" col-sm-6 col-md-6 col-lg-6 heading"></div>
+            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5 heading">CAD System - Malaria Detection</div>
+          </div>
+          <br><br><br>
+
+          <div class="row card2">
+            <div class=" col-md-7 col-lg-7 "></div>
+
+            <div class="col-sm-9 col-md-3 col-lg-3">
+              <div class="card card1" style="width: 18rem;">
+
+                <div class="card-body">
+               <!--<center><h5 class="card-title" font-weight = "bold" >MODEL 1</h5></center>-->
+                  <p class="card-text" >Upload image file </p>
+                  <br>
+              <!-- <center> <a href="result.pdf" class="btn btn-primary" > Choose File</a></center>-->
+                  <form  method ='post' enctype=multipart/form-data >
+                    <input type="file" name="file" >
+                </div>
+              </div>
+            </div>
+           </div>
+          </div>
+          <br><br>
+        <input type="submit" class="button" value="Analyze">
+      </form>
+        </div>
+
+    </body>
+</html>
+
+
+<style>
+    .background
+    {
+         background-image: url("static/images/img.jpg");
+         overflow-x: hidden;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         height: 100vh;
+         width: 100vw;
+         padding: 2%
+
+
+
+    }
+
+    .heading
+    {
+        font-size: 3vw;
+    }
+
+    .heading2
+    {
+      font-size: 2vw;
+      /*text-align: center;*/
+      align-content: center;
+
+    }
+    .card1
+    {
+      width: 18rem;
+      border:solid;
+      padding: 20px;
+    }
+    .card2{
+      align-items: center;
+      margin-left: -7%;
+    }
+    .button
+    {
+      margin-left: 63%;
+      background-color: lightblue;
+      padding: 8px;
+      font-size: 20px;
+      border-radius: 10px 10px 10px 10px
+
+    }
+
+    .arrow
+    {
+      font-size: 30px;
+    }
+</style>
